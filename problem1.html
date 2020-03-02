@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+    var num  = 1;
+    var FIZZ = 3;   
+    var BUZZ = 5; 
+    var UPTO = 100; 
+                    
+
+    while (num < UPTO)
+    {
+        var flag = false;
+        if (num % FIZZ == 0) { document.write ("Fizz"); flag = true; }
+        if (num % BUZZ == 0) { document.write ("Buzz"); flag = true; }
+        if (flag == false)   { document.write (num); }
+        document.write ("<br>");
+        num += 1;
+    }
+</script>
+
+</body>
+</html>
+
+
